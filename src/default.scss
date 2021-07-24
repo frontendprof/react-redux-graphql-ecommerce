@@ -8,6 +8,12 @@ html,
 body {
     margin: 0;
     padding: 0;
+}
+
+html,
+body,
+#root,
+.App {
     height: 100%;
 }
 
@@ -24,9 +30,17 @@ body {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 a,
 a:hover {
     transition: all 0.4s ease-in-out;
+}
+
+.main {
+    max-width: 1450px;
+    padding: 0 50px;
+    margin: 0 auto;
+    height: calc(100% - 6.5rem);
 }

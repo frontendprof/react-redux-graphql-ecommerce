@@ -11,4 +11,8 @@
 
 ### components
 1. Header component
+2. Directory component
+
+### pages
+1. Homepage
 
