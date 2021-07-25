@@ -9,10 +9,16 @@
 2. Cleanup
 3. Wiring up to github account
 
+### layout
+
+1. MainLayout
+
 ### components
+
 1. Header component
 2. Directory component
 
 ### pages
-1. Homepage
 
+1. Homepage
+2. Registration
