@@ -1,6 +1,8 @@
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from "../../assets/logo.png"
+
 import "./styles.scss"
 
 const Header = () => {
@@ -8,7 +10,20 @@ const Header = () => {
         <header className="header">
             <div className="wrap">
                 <div className="logo">
-                    <img src={logo} alt="logo icon" />
+                    <Link to="/">
+                        <img src={logo} alt="logo icon" />
+                    </Link>
+                    
+                </div>
+
+                <div className="callToActions">
+                    <ul>
+                        <li>
+                            <Link to="/registration">
+                                Register
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
 

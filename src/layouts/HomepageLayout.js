@@ -3,16 +3,14 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 
-const MainLayout = ({children}) => {
+const HomepageLayout = ({children}) => {
     return (
-        <div>
+        <div className="fullHeight">
             <Header />
-            <div className="main">
-                {children}
-            </div>
+            {children}
             <Footer />
         </div>
     )
 }
 
-export default MainLayout
+export default HomepageLayout
